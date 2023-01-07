@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.Register-Page{
+    display: flex;
+    width:1000px;
+    margin: auto;
+    box-shadow: 5px 2px 5px 2px rgba(226, 219, 219, 0.992); 
+    margin-top:2%;
+    background-color: white;
+    margin-bottom: 20%;
+}
+
+.bottom{
+    display: flex;
+}
+
+.outerLayer-Register{
+    background-color:#FFDDD2;
+    padding: 50px;
+    height: 1100px;
+}
+
+.signup-heading{
+    color:#ff9a9c;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 40px;
+}
+
+.name{
+    display: block;
+    width: 80%;
+    border-radius: 23.5px;
+    height: 47px;
+    padding: 0 24px;
+    color: gray;
+    font-size: 13px;
+    border: none;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    margin-left:50px;
+}
+
+.label{
+    color:#ff9a9c;
+    font-size: 16px;
+    margin-bottom:20px;
+    margin-left:65px;
+}
+
+.nameDesc{
+    display: block;
+    padding: 0 24px;
+    color: gray;
+    font-size: 13px;
+    border: none;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    margin-left:50px;
+}
+
+.nameOption{
+    display: block;
+    width: 90%;
+    border-radius: 23.5px;
+    height: 47px;
+    padding: 0 24px;
+    color: gray;
+    font-size: 13px;
+    border: none;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    margin-left:50px;
+}
+
+.sinupButton{
+    letter-spacing: 2px;
+    border: none;
+    width: 133px;
+    height: 47px;
+    margin-right: 19px;
+    border-radius: 23.5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: #ff9a9c;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left:50px;
+    margin-bottom: 30px;
+}
+
+.naivation-login{
+    color: #ff9a9c;
+    text-decoration: none;
+    margin-top:3.8%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.alreadylogin-message{
+    color: gray;
+    font-size: 15px;
+}

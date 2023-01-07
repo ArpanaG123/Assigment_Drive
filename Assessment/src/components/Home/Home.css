@@ -1,0 +1,165 @@
+.navbar{
+    display: flex;
+    background-color:palevioletred;
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+
+.logoutBut{
+    font-size:25px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 80%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.haedlogo{
+    margin-left:2%
+}
+
+.wholeHome{
+    background-color:#FFDDD2;
+    height: 800px;
+}
+
+.secpage{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.but1{
+    width: 200px;
+    height: 40px;
+    margin-top:2%;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.detailP{
+    color:orangered;
+}
+
+.table{
+    margin: auto;
+    border:1px solid;
+    width:40%;
+    height:60px;
+    margin-top: 4vw;
+}
+
+table, th, td,tr {
+    border: 1px solid black;
+    border-collapse:collapse;
+    background-color:#9BA3EB;
+}
+
+.name1{
+    margin-left:15vw;
+    position: absolute;
+    top:14.5vw;
+    font-size:25px;
+    color:blue;
+}
+.input1{
+    width:260px;
+    height:40px;
+    border-radius:40px;
+    border: none;
+    background-color: lightskyblue;
+    border: 1px solid blue;
+    margin-top:10vw;
+    margin-left:20vw;
+    text-align: center;
+}
+
+.age{
+    margin-left: 10vw;
+    font-size:25px;
+    color:blue;
+}
+
+.input2{
+    width:270px;
+    height:40px;
+    border-radius:40px;
+    border: none;
+    background-color: lightskyblue;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.course{
+    margin-left:14.7vw;
+    font-size:25px;
+    color:blue;
+    position: absolute;
+    top:24vw;
+}
+
+.input3{
+    width:250px;
+    height:40px;
+    border-radius:40px;
+    border: none;
+    background-color: lightskyblue;
+    border: 1px solid blue;
+    margin-top:6.5vw;
+    margin-left:21vw;
+    text-align: center;
+}
+
+.batch{
+    margin-left: 10vw;
+    font-size:25px;
+    color:blue;
+}
+
+.input4{
+    width:250px;
+    height:40px;
+    border-radius:40px;
+    border: none;
+    background-color: lightskyblue;
+    border: 1px solid blue;
+    margin-top: -1vw;
+    text-align: center;
+}
+
+.cancelBut{
+    width:160px;
+    height:40px;
+    border-radius: 20px;
+    border: none;
+    background-color: grey;
+    font-size: 20px;
+    margin-left:60vw;
+    margin-top:7vw;
+    border: 1px solid black;
+}
+
+.sucessBut{
+    width:160px;
+    height:40px;
+    border-radius: 20px;
+    border: none;
+    background-color:white;
+    font-size: 20px;
+    position: absolute;
+    right:15vw;
+    bottom:13vw;
+    border: 1px solid black;
+}
+
+.editBut{
+    border: none;
+    background:none;
+    text-decoration: underline;
+    font-size:18px;
+    color: blue;
+}
