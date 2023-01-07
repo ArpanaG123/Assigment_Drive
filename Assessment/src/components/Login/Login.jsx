@@ -22,7 +22,7 @@ const handleChange = (e) => {
 }
 
 const login = () => {
-  axios.post("https://thankful-tan-woolens.cyclic.app/login",user)
+  axios.post("http://localhost:9002/login",user)
   .then(res => {
     alert(res.data.message)
     setLoginUser(res.data.user)
