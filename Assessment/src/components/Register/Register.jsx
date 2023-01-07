@@ -31,8 +31,9 @@ const Register = () => {
         const {name,username,mobile,email,password,state,city,comment} = user;
 
         if(name && username && mobile && email && password && state && city && comment){
-            axios.post("http://localhost:9002/register",user)
-            .then(res =>  alert(res.data.message));
+            axios.post("https://thankful-tan-woolens.cyclic.app/register",user)
+            .then(res =>  
+                alert(res.data.message));
             navigate("/login")
         }else{
             alert("Invalid Input")

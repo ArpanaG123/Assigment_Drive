@@ -16,45 +16,41 @@ const Home = ({setLoginUser}) => {
     const [hide,setHide] = useState(false);
 
     const editHandler = (event) => {
-        const value = event.target.value
-        setStore(store =>({...store,[event.target.name] : value}))
+      const value = event.target.value
+      setStore(store =>({...store,[event.target.name] : value}))
     }
 
     const Add = () => {
-        if(editData)
+      if(editData)
+      {
+        const updateData = data.map((val)=>val.id === store.id ? store:val);
+        setData(updateData);
+        setEditData(false);
+        setStore(Details)
+        setHide(!hide)
+      }
+      else
+      {
+        let listItems = data;
+        const item = 
         {
-            const updateData = data.map((val)=>val.id === store.id ? store:val);
-            setData(updateData);
-            setEditData(false);
-            setStore(Details)
-            setHide(!hide)
+          id:data.length,
+          ...store
         }
-        else
-        
-            {
-                let listItems = data;
-                const item = 
-                {
-                    id:data.length,
-                    ...store
-                }
-
-                listItems = [...data,item];
-                setData(listItems);
-                clearData();
-                setHide(!hide)
-            }
-          
+        listItems = [...data,item];
+        setData(listItems);
+        clearData();
+        setHide(!hide)
+      }
     }
-
     const clearData = () => {
         setStore(Details);
     }
 
     const editRow = (val) => {
-        setStore(val);
-        setEditData(true);
-        setHide(!hide)
+      setStore(val);
+      setEditData(true);
+      setHide(!hide)
     } 
 
   return (
