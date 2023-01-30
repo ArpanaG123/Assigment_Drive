@@ -1,9 +1,9 @@
 import './App.css';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
-import Home from './components/Home/Home';
 import {BrowserRouter,Route, Routes} from 'react-router-dom'
 import { useState } from 'react';
+import Calc from './components/Calculator/Calc';
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route exact path = "/" element =  { user && user._id ? <Home setLoginUser = {setLoginUser} /> : <Login setLoginUser = {setLoginUser} /> } />
+      <Route exact path = "/" element =  { user && user._id ? <Calc setLoginUser = {setLoginUser} /> : <Login setLoginUser = {setLoginUser} /> } />
       <Route path = "/login" element = {<Login  setLoginUser = {setLoginUser} />} />
       <Route path = "/register" element = {<Register />} />
     </Routes>
